@@ -1,0 +1,137 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1em 2em; /* Use em units for relative padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container img {
+  max-width: 15vw; /* Use viewport width for scaling */
+  max-height: 15vh; /* Use viewport height for scaling */
+  object-fit: contain; /* Preserve aspect ratio and fit within the container */
+}
+
+.top-bar-options {
+  display: flex; /* Use flexbox layout */
+  justify-content: flex-end; /* Align items to the right */
+  padding: 1em; /* Use em units for relative padding */
+}
+
+.top-bar-options a {
+  margin-left: 1.25em; /* Use em units for spacing */
+  text-decoration: none; /* Remove underline from links */
+  color: #000; /* Set link color */
+}
+
+.top-bar-options a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.menu {
+  background-color: #fff;
+  padding: 2em; /* Use em units for relative padding */
+  margin: 2em 0; /* Use em units for relative margin */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.menu-container {
+  display: flex; /* Set up flexbox */
+  justify-content: center;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent items from wrapping */
+  padding: 3%; /* Use percentage for relative padding */
+  background-color: #f4f4f4; /* Background color */
+}
+
+.menu-item {
+  display: inline-block; /* Ensure items are inline */
+  margin: 0 1vw; /* Use viewport width for spacing */
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set link color */
+}
+
+.menu-item:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.menu-item img {
+  width: 10vw; /* Use viewport width for image size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
+}
+
+.menu-item p {
+  margin-top: 1em; /* Use em units for relative spacing */
+  font-size: 1rem; /* Use rem units for relative font size */
+  color: #555;
+}
+
+.restaurants {
+  background-color: #fff;
+  padding: 2em; /* Use em units for relative padding */
+  margin: 2em 0; /* Use em units for relative margin */
+}
+
+.restaurants h2 {
+  font-size: 1.5rem; /* Use rem units for relative font size */
+  margin-bottom: 1.5em; /* Use em units for relative spacing */
+  color: #333;
+}
+
+.restaurant-list {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2vw; /* Use viewport width for spacing */
+  width: 20vw; /* Use viewport width for relative width */
+}
+
+.restaurant img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.restaurant-info {
+  padding: 1em; /* Use em units for relative padding */
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  margin-top: -2em; /* Use em units for relative negative margin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-info h3 {
+  font-size: 1.125rem; /* Use rem units for relative font size */
+  color: #333;
+}
+
+.restaurant-info p {
+  font-size: 0.875rem; /* Use rem units for relative font size */
+  color: #777;
+}
+
+.footer-content {
+  background-color: #333;
+  color: #fff;
+  padding: 2em; /* Use em units for relative padding */
+  text-align: center;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 1em; /* Use em units for relative spacing */
+  text-decoration: none;
+}
